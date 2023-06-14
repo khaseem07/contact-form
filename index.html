@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Form </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+   
+
+</head>
+<body>
+    <div class="container">
+    <form onsubmit="sendEmail(); reset(); return false;"> 
+        <h3>GET IN TOUCH</h3>
+         <input type="text"  id="name" placeholder="enter your name" required>
+         <input type="email" id="email" placeholder="mail Id" required>
+         <input type="text" id="phone no" placeholder="phone number" required>
+         <textarea id="message" rows="4" placeholder="how can  we help you"></textarea>
+         <button type="submit" onclick="sendEmail()"> submit</button>
+
+
+    </div>
+    </form>
+   
+    
+</body>
+</html>
